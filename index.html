@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio profissional de um desenvolvedor full stack com projetos em HTML, CSS, JavaScript e Python."
+    />
+    <meta name="theme-color" content="#060816" />
+    <title>Portfólio | Mycael Mythel da Silva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+    <header class="topbar">
+    <div class="nav-container">
+
+        <a class="brand" href="#home">{ Dev }</a>
+
+        <button class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#tech">Tecnologias</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact" class="btn-contact">Contato</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-content reveal">
+          <div class="hero-badge">Desenvolvedor em formação</div>
+          <h1>Olá, eu sou <span>Mycael!</span> 👋</h1>
+          <p class="hero-subtitle">
+            Tenho 17 anos e sou apaixonado por tecnologia, programação e aprendizado constante.
+            Transformo ideias em experiências digitais modernas com
+            <span id="typing-text"></span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Ver projetos</a>
+            <a class="btn btn-secondary" href="#contact">Fale comigo</a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/Escanorblack" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mycael-mythel/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/cael_xw/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@devs_dozero" target="_blank" rel="noreferrer"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="avatar-card">
+            <img src="assets/WhatsApp Image 2026-07-15 at 11.51.32.jpeg" alt="Avatar ilustrado do desenvolvedor" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sobre mim</p>
+          <h2>Desenvolvedor apaixonado por criar soluções limpas e impactantes.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <p>
+              Tenho 17 anos e sou um desenvolvedor apaixonado por tecnologia, programação e aprendizado constante.
+              Estou sempre buscando evoluir minhas habilidades por meio de cursos, projetos práticos e novos desafios na área de desenvolvimento de software.
+            </p>
+            <p>
+              Além da programação, também sou apaixonado por esportes. Pratico Jiu-Jitsu, Muay Thai e Basquete, atividades que me ajudam a desenvolver disciplina, foco, trabalho em equipe e determinação.
+            </p>
+            <p>
+              Como programador, gosto de transformar ideias em soluções reais, criando sites, aplicações e projetos que unem criatividade, funcionalidade e uma boa experiência para o usuário.
+              Meu objetivo é crescer profissionalmente na área da tecnologia e construir uma carreira sólida como desenvolvedor.
+            </p>
+            <p class="about-quote">
+              “Cada linha de código é uma oportunidade de aprender, evoluir e criar algo incrível.”
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <h3>Habilidades</h3>
+            <ul class="skill-list">
+              <li>Desenvolvimento front-end responsivo</li>
+              <li>Criação de interfaces com HTML, CSS e JavaScript</li>
+              <li>Programação em Python e automação</li>
+              <li>Trabalho com Git, GitHub e versionamento</li>
+              <li>Exploração de bibliotecas como p5.js e Canvas</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Tecnologias</p>
+          <h2>Ferramentas e stacks com as quais trabalho.</h2>
+        </div>
+        <div class="tech-grid">
+          <article class="tech-card reveal">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fab fa-git-alt"></i>
+            <h3>Git</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fas fa-palette"></i>
+            <h3>p5.js</h3>
+          </article>
+          <article class="tech-card reveal">
+            <i class="fas fa-gamepad"></i>
+            <h3>Canvas</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Meus projetos</p>
+          <h2>Projetos reais encontrados nos diretórios abertos no VS Code.</h2>
+        </div>
+        <div id="projects-grid" class="projects-grid"></div>
+      </section>
+
+      <section id="courses" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Cursos</p>
+          <h2>Meus estudos e certificações.</h2>
+        </div>
+        <div class="courses-grid">
+          <article class="course-card reveal">
+            <embed
+              class="certificate-frame"
+              src="assets/certificates/Certificado_Desenvolvedor_Front-end.pdf"
+              type="application/pdf"
+              title="Certificado de Desenvolvedor Front-end"
+            />
+            <h3>Desenvolvedor Front-end</h3>
+            <p>Curso com foco em interfaces, responsividade, HTML, CSS e JavaScript.</p>
+            <a class="btn btn-secondary" href="assets/certificates/Certificado_Desenvolvedor_Front-end.pdf" target="_blank" rel="noreferrer">
+              Abrir certificado
+            </a>
+          </article>
+          <article class="course-card reveal">
+            <embed
+              class="certificate-frame"
+              src="assets/certificates/Certificado_Desenvolvedor_Back-en_1.pdf"
+              type="application/pdf"
+              title="Certificado de Desenvolvedor Back-end"
+            />
+            <h3>Desenvolvedor Back-end</h3>
+            <p>Curso com foco em desenvolvimento server-side, rotas, lógica e estrutura de aplicações.</p>
+            <a class="btn btn-secondary" href="assets/certificates/Certificado_Desenvolvedor_Back-en_1.pdf" target="_blank" rel="noreferrer">
+              Abrir certificado
+            </a>
+          </article>
+          <article class="course-card reveal">
+            <iframe
+              class="certificate-frame"
+              src="assets/certificates/Certificado_Fundamentos%20do%20Python%20.pdf"
+              title="Certificado de Fundamentos de Python"
+            ></iframe>
+            <h3>Fundamentos de Python</h3>
+            <p>Estudos introdutórios sobre a linguagem Python, sintaxe e lógica de programação.</p>
+            <a class="btn btn-secondary" href="assets/certificates/Certificado_Fundamentos%20do%20Python%20.pdf" target="_blank" rel="noreferrer">
+              Abrir certificado
+            </a>
+          </article>
+          <article class="course-card reveal">
+            <embed
+              class="certificate-frame"
+              src="assets/certificates/Linguagem_Javascript-Certificado_Javascript_391488.pdf"
+              type="application/pdf"
+              title="Certificado de JavaScript"
+            />
+            <h3>JavaScript</h3>
+            <p>Certificação de linguagem JavaScript com foco em lógica, sintaxe e fundamentos da linguagem.</p>
+            <a class="btn btn-secondary" href="assets/certificates/Linguagem_Javascript-Certificado_Javascript_391488.pdf" target="_blank" rel="noreferrer">
+              Abrir certificado
+            </a>
+          </article>
+          <article class="course-card reveal">
+            <embed
+              class="certificate-frame"
+              src="assets/certificates/Certificado_Microsoft_Power_B.pdf"
+              type="application/pdf"
+              title="Certificado Microsoft Power BI"
+            />
+            <h3>Microsoft Power BI</h3>
+            <p>Certificação com foco em análise de dados, dashboards e visualização de informações.</p>
+            <a class="btn btn-secondary" href="assets/certificates/Certificado_Microsoft_Power_B.pdf" target="_blank" rel="noreferrer">
+              Abrir certificado
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contato</p>
+          <h2>Vamos conversar sobre o próximo projeto.</h2>
+        </div>
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form reveal">
+            <label>
+              Nome
+              <input type="text" name="name" placeholder="Seu nome" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="seu@email.com" required />
+            </label>
+            <label>
+              Mensagem
+              <textarea name="message" rows="5" placeholder="Conte-me sobre sua ideia" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+          <div class="contact-links reveal">
+            <a href="https://github.com/Escanorblack" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/mycael-mythel/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/cael_xw/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@devs_dozero" target="_blank" rel="noreferrer"><i class="fab fa-tiktok"></i> TikTok</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="project-modal" class="project-modal" aria-hidden="true">
+      <div class="project-modal-panel">
+        <iframe id="project-frame" title="Preview do projeto" src=""></iframe>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mycael Mythel da Silva. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
