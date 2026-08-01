@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Recomendador de Filmes</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="recommendation-input" class="input-section">
+            <div class="container">
+                <h2 class="section-title">Encontre o filme ideal para você</h2>
+                <div class="form-group">
+                    <label for="idade">Sua idade:</label>
+                    <input type="number" id="idade" min="0" value="18">
+                </div>
+                <div class="form-group">
+                    <label>Gêneros preferidos:</label>
+                    <div class="genre-checkboxes">
+                        <input type="checkbox" id="fantasia" value="fantasia"><label for="fantasia">Fantasia</label>
+                        <input type="checkbox" id="aventura" value="aventura"><label for="aventura">Aventura</label>
+                        <input type="checkbox" id="drama" value="drama"><label for="drama">Drama</label>
+                        <input type="checkbox" id="comedia" value="comedia"><label for="comedia">Comédia</label>
+                        <input type="checkbox" id="ficcao" value="ficcao"><label for="ficcao">Ficção</label>
+                    </div>
+                </div>
+                <button id="recomendarBtn" class="btn-primary">Recomendar Filmes</button>
+            </div>
+        </section>
+
+        <section id="recommendation-output" class="output-section">
+            <div class="container">
+                <h2 class="section-title">Filmes Recomendados</h2>
+                <div id="filmesRecomendados" class="movie-grid">
+                    <!-- Filmes recomendados serão inseridos aqui pelo JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Recomendador de Filmes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
